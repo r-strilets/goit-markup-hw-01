@@ -1,147 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
 </head>
+
 <body>
     <header id="header">
-        <div class="logo">
-            <a href="#"><span>Web</span>Studio</a>
-        </div>
         <nav class="menu">
-            <ul>
+            <a href="index.html"><span>Web</span>Studio</a>
+            <ul class="cotnacts">
                 <li>
-                    <a href="#header">Студия</a>
+                    <a href="/">Студия</a>
                 </li>
                 <li>
-                    <a href="#our_work">Портфолио</a>
+                    <a href="/">Портфолио</a>
                 </li>
                 <li>
-                    <a href="#footer">Контакти</a>
+                    <a href="/">Контакти</a>
                 </li>
             </ul>
         </nav>
-        <div class="contacts">
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </div>
+        <ul>
+            <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
     </header>
     <main>
-        <div class="effective-solutions">
+        <section class="effective-solutions">
             <h1>Эффективные решения для вашего бизнеса</h1>
             <button type="button">Заказать услугу</button>
-        </div>
-        <div class="our-peculiarities">
+        </section>
+        <section class="our-peculiarities">
+            <h2>особености и преимущества</h2>
             <ul>
-                <li>
-                    <div class="peculiariti">
-                        <h3>
-                            Внимание к деталям
-                        </h3>
-                        <p>
-                            Идейные соображения, а также начало повседневной работы по формированию позиции.
-                        </p>
-                    </div>
+                <li class="peculiariti">
+                    <h3>
+                        Внимание к деталям
+                    </h3>
+                    <p>
+                        Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    </p>
                 </li>
-                <li>
-                    <div class="peculiariti">
-                        <h3>
-                            Пунктуальность
-                        </h3>
-                        <p>
-                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                        </p>
-                    </div>
+                <li class="peculiariti">
+                    <h3>
+                        Пунктуальность
+                    </h3>
+                    <p>
+                        Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                    </p>
                 </li>
-                <li>
-                    <div class="peculiariti">
-                        <h3>
-                            Планирование
-                        </h3>
-                        <p>
-                            Равным образом консультация с широким активом в значительной степени обуславливает.
-                        </p>
-                    </div>
+                <li class="peculiariti">
+                    <h3>
+                        Планирование
+                    </h3>
+                    <p>
+                        Равным образом консультация с широким активом в значительной степени обуславливает.
+                    </p>
                 </li>
-                <li>
-                    <div class="peculiariti">
-                        <h3>
-                            Современные технологии
-                        </h3>
-                        <p>
-                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                        </p>
-                    </div>
+                <li class="peculiariti">
+                    <h3>
+                        Современные технологии
+                    </h3>
+                    <p>
+                        Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                    </p>
                 </li>
             </ul>
-        </div>
-        <div id="our-works">
+        </section>
+        <section id="our-works">
+            <h2>Чем мы занимаемся</h2>
             <ul>
-                <li>
-                    <div class="our-works-example">
-                        <a href="#" >
-                            <img src="images/work1.jpg" alt="work_1" width="370">
-                        </a>
-                    </div>
+                <li class="our-works-example">
+                    <img src="./images/work1.jpg" alt="work_1" width="370">
                 </li>
-                <li>
-                    <div class="our-works-example">
-                        <a href="#" >
-                            <img src="images/work2.jpg" alt="work_2" width="370">
-                        </a>
-                    </div>
+                <li class="our-works-example">
+                    <img src="./images/work2.jpg" alt="work_2" width="370">
                 </li>
-                <li>
-                    <div class="our-works-example">
-                        <a href="#" >
-                            <img src="images/work3.jpg" alt="work_3" width="370">
-                        </a>
-                    </div>
+                <li class="our-works-example">
+                    <img src="./images/work3.jpg" alt="work_3" width="370">
                 </li>
             </ul>
-        </div>
-        <div class="our-team">
-           <h2>Наша команда</h2>
+        </section>
+        <section class="our-team">
+            <h2>Наша команда</h2>
             <ul>
-                <li>
-                    <div class="team-memder">
-                        <img src="images/team_member_1.jpg" alt="photo_of_member_1" width="270">
-                        <p class="team-member-name">Игорь Демьяненко</p>
-                        <p class="profession-profession">Product Designer</p>
-                    </div>
+                <li class="team-memder">
+                    <img src="./images/team_member_1.jpg" alt="photo_of_member_1" width="270">
+                    <h3 class="team-member-name">Игорь Демьяненко</h3>
+                    <p class="profession-profession">Product Designer</p>
                 </li>
-                <li>
-                    <div class="team-memder">
-                        <img src="images/team_member_2.jpg" alt="photo_of_member_2" width="270">
-                        <p class="team-member-name">Ольга Репина</p>
-                        <p class="profession-profession">Frontend Developer</p>
-                    </div>
+                <li class="team-memder">
+                    <img src="./images/team_member_2.jpg" alt="photo_of_member_2" width="270">
+                    <h3 class="team-member-name">Ольга Репина</h3>
+                    <p class="profession-profession">Frontend Developer</p>
                 </li>
-                <li>
-                    <div class="team-memder">
-                        <img src="images/team_member_3.jpg" alt="photo_of_member_3" width="270">
-                        <p class="team-member-name">Николай Тарасов</p>
-                        <p class="profession-profession">Marketing</p>
-                    </div>
+                <li class="team-memder">
+                    <img src="./images/team_member_3.jpg" alt="photo_of_member_3" width="270">
+                    <h3 class="team-member-name">Николай Тарасов</h3>
+                    <p class="profession-profession">Marketing</p>
                 </li>
-                <li>
-                    <div class="team-memder">
-                        <img src="images/team_member_4.jpg" alt="photo_of_member_4" width="270">
-                        <p class="team-member-name">Михаил Ермаков</p>
-                        <p class="profession-profession">UI Designer</p>
-                    </div>
+                <li class="team-memder">
+                    <img src="./images/team_member_4.jpg" alt="photo_of_member_4" width="270">
+                    <h3 class="team-member-name">Михаил Ермаков</h3>
+                    <p class="profession-profession">UI Designer</p>
                 </li>
             </ul>
-        </div>
+        </section>
     </main>
     <footer id="footer">
         <div class="logo">
@@ -149,7 +121,8 @@
         </div>
         <address>
             <ul>
-                <li class="footer-address">г. Киев, пр-т Леси Украинки, 26</li>
+                <li class="footer-address"><a href="href=" https://goo.gl/maps/piqngm7oDQpEDh6u6" target="_blank"
+                        rel="noopener nofollow noreferrer"> г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li class="footer-contacts">
                     <a href="mailto:info@example.com">info@example.com</a>
                 </li>
@@ -158,7 +131,8 @@
                 </li>
             </ul>
         </address>
-        
-    </footer>   
+
+    </footer>
 </body>
+
 </html>
